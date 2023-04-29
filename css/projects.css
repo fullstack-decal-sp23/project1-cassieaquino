@@ -1,0 +1,72 @@
+.projects-background { 
+    background-color: #6AA9A5;
+}
+
+.projects-navbar ul { 
+    list-style-type: none;
+    padding: 10px;
+    text-align: right; 
+}
+
+.projects-navbar li { 
+    display: inline;
+}
+
+.projects-navbar a:hover { 
+    text-decoration: underline;
+}
+
+.projects-navbar a { 
+    color: #FAF0E6; 
+    text-decoration: none; 
+    font-family: Lato; 
+    font-size: 20px;
+    margin: 10px;
+}
+
+.projects-container { 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 75px;
+}
+
+.projects-container h1 { 
+    font-family: Garamond;
+    font-weight:bold;
+    color: #FAF0E6;
+    font-size: 75px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.projects-container h4 { 
+    font-family: Lato;
+    font-style: italic;    
+    color: #FAF0E6;
+    font-size: 15px;
+    margin-top: 8px;
+}
+
+.all-projects { 
+    display: inline-grid;
+    row-gap: 20px;
+}
+
+.project-card { 
+    padding: 20px;
+    width: 650px;
+    background-color:#FAF0E6;
+    border-radius: 10px;
+}
+
+.project-card h2 { 
+    font-family: Lato; 
+    color: #488a86;
+}
+
+.project-card p { 
+    font-family: Lato; 
+    color: #488a86;
+}

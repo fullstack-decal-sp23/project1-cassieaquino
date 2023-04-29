@@ -1,0 +1,79 @@
+.home-background { 
+    background-color: #6AA9A5;
+}
+
+.home-navbar ul { 
+    list-style-type: none;
+    padding: 10px;
+    text-align: right; 
+}
+
+.home-navbar li { 
+    display: inline;
+}
+
+.home-navbar a:hover { 
+    text-decoration: underline;
+}
+
+.home-navbar a { 
+    color: #FAF0E6; 
+    text-decoration: none; 
+    font-family: Lato; 
+    font-size: 20px;
+    margin: 10px;
+}
+
+.home-container { 
+    display: flex; 
+    justify-content: center;
+    flex-direction: column;
+    height: 80vh;
+    width: 100%; 
+    overflow: hidden;
+    align-items: center;
+    position: relative;
+}
+
+.intro-container { 
+    text-align: center;
+}
+
+.intro-container h3 { 
+    font-family: Garamond; 
+    font-style: italic;
+    color: #FAF0E6;
+    font-size: 45px;
+    margin-bottom: 10px;
+}
+
+.intro-container h1 { 
+    font-family: Garamond;
+    font-weight:bold;
+    color: #FAF0E6;
+    font-size: 120px;
+    margin-top: 0px;
+    letter-spacing: 2px;
+}
+
+.about-button { 
+    position: absolute; 
+    bottom: 5px;
+}
+
+.home-container button { 
+    border-radius: 15px; 
+    background-color: #FAF0E6; 
+    height: 27px;
+    width: 100px;
+    border: none;
+    color: #488a86;
+    font-weight: 600;
+    font-family: Lato;
+    font-size: 17px;
+}
+
+.home-container button:hover { 
+    cursor: pointer;
+    background-color: #dad2c9
+}
